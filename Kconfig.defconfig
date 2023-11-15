@@ -1,0 +1,25 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+if GENKITEST
+
+config ZMK_KEYBOARD_NAME
+    default "genkitest"
+
+endif
+# split config example
+# if SHIELD_GENKIERGO_LEFT
+#
+# config ZMK_KEYBOARD_NAME
+#     default "GENKI ERGO"
+#
+# config ZMK_SPLIT_ROLE_CENTRAL
+#     default y
+#
+# endif
+#
+# if SHIELD_GENKIERGO_LEFT || SHIELD_GENKIERGO_RIGHT
+#
+# config ZMK_SPLIT
+#     default y
+#
+# endif
